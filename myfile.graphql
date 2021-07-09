@@ -1,0 +1,7 @@
+query getProductById {
+    product(id: "12345") {
+        id
+        name
+        type
+    }
+}
